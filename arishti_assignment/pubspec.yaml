@@ -1,0 +1,51 @@
+name: arishti_assignment
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  connectivity_plus: ^1.1.0
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.4
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^5.0.2
+  flutter_secure_storage: ^4.2.1
+  freezed_annotation: ^0.14.3
+  get: ^4.3.8
+  getwidget: ^2.0.4
+  hive_flutter: ^1.1.0
+  hooks_riverpod: ^0.14.0+4
+  http: ^0.13.4
+  json_serializable: ^5.0.2
+
+dev_dependencies:
+  build_runner: ^2.1.2
+  flutter_lints: ^1.0.0
+
+  flutter_test:
+    sdk: flutter
+  freezed: ^0.14.5
+
+flutter:
+  uses-material-design: true
+  # assets:
+  #   - assets/images/arishti.png
+  # fonts:
+  #   - family: "OpenSans-Regular"
+  #     fonts:
+  #       - asset: assets/fonts/OpneSans-Regular.ttf
+  #       - weight: 400
+  #   - family: "OpenSans-Medium"
+  #     fonts:
+  #       - asset: assets/fonts/OpneSans-Medium.ttf
+  #       - weight: 400
+  #   - family: "OpenSans-SemiBold"
+  #     fonts:
+  #       - asset: assets/fonts/OpneSans-SemiBold.ttf
+  #       - weight: 400
